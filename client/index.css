@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.flex-column-container {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-form-container > form {
+  text-align: center;
+  border: 1px solid blue;
+}
+
+form {
+  height: fit-content;
+}
+
+form > div {
+  max-width: 281.89px;
+  padding: 15px 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.classic-border {
+  border: 1px solid black;
+}
+
+.flex-column-container > * {
+  margin: 15px 0 15px 0;
+}
+
+#gifContainer {
+  height: fit-content;
+  max-width: 1020px;
+}
+
+#gifContainer p {
+  max-width: 33ch;
+  text-align: center;
+}
+
+#gifContainer img {
+  height: 150px;
+}
+
+#gifContainer button {
+  padding: 1px;
+}
+
+#gifContainer * {
+  margin: 1.1ch;
+}
